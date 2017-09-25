@@ -27,19 +27,31 @@ insert_data ($student);
 <html>
 <body>
     <form action="" method="post">
-    Name: <input type="text" name="name" value=" ">
+    Name: <input type="text" name="name" value=" "><br>
     
-    Email: <input type="text" name="email" value=" ">
+    Email: <input type="text" name="email" value=" "><br>
     
-    Nationality: <input type="text" name="nationality" value=" ">
+    Nationality: <select name="nationality">
+        <option>Australian</option>
+        <option>Chilean</option>
+        <option>Czech</option>
+        <option>Guatemalan</option>
+        <option>Indonesian</option>
+        <option>Irish</option>
+        <option>Italian</option>
+        <option>Portuguese</option>
+        <option>Slovak</option>
+        <option>Turkish</option>
+        </select><br>
     
-    Address: <textarea name="address" rows="5" cols="40">&nbsp;</textarea>
+        
+    Address: <textarea name="address" rows="5" cols="40">&nbsp;</textarea><br>
     
     Gender:
     <input type="radio" name="gender"
     value="female" checked="true">Female
     <input type="radio" name="gender"
-    value="male">Male 
+    value="male">Male <br>
 
     Submit:
     <input type="submit" value="Submit"/>
